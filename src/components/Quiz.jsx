@@ -58,11 +58,11 @@ const Quiz = () => {
   onClick={fetchQuestions}
   className="w-full sm:w-auto text-center bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-3 rounded-full font-semibold shadow-lg transition duration-300 ease-in-out mb-6"
 >
-  {loading ? "Loading..." : "Fetch Questions"}
+  {loading ? "Loading..." : "Show Questions"}
 </button>
       <div className="top-0 mb-4">
       <p className="text-sm text-center text-gray-600 relative mb-4">
-  Click fetch questions again to change the questions!
+  Click show questions again to change the questions!
 </p>
 
       </div>
