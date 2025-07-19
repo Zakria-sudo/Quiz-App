@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const Quiz = () => {
   const [questions, setQuestions] = useState([]);
   const [loading, setLoading] = useState(false);

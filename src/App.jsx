@@ -11,8 +11,8 @@ function App() {
   const router = createBrowserRouter([
     {
       path : '/',
-      element: <div className='hero min-h-screen bg-gray-900 text-white' style={{ backgroundColor :'#121212 '}}>
-     <Hero/>
+      element: <div className='hero min-h-screen text-white bg-gradient-to-r from-sky-100 to-indigo-100' >
+        <Hero/>
     </div>
     },
     {
